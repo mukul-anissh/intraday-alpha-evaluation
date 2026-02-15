@@ -63,8 +63,9 @@ A slight positive correlation is present, but cumulative performance is unstable
 ### Net (after costs)
 Incorporating turnover based costs further degrades performance, confirming the signal lacks economic viability.
 
-Average net return ≈ negative.
-Sharpe ≈ near zero (slightly negative).
+Average net return ≈ -0.00017 (almost zero, slightly negative).
+
+Sharpe ≈ -0.135 (slightly negative).
 
 ## Interpretation
 While a statistical relationship exists, it is too weak relative to turnover.
@@ -77,7 +78,7 @@ While a statistical relationship exists, it is too weak relative to turnover.
 - ignores spread microstructure
 
 ## Future Work
-- multi-day validation
+- multi day validation
 - alternative horizons
 - volatility conditioning
 - reduced turnover designs
