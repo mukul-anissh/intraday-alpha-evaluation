@@ -37,8 +37,10 @@ where
 All calculations use forward shifts to avoid leakage. 
 
 ## Preliminary Evidence
+<img width="602" height="453" alt="image" src="https://github.com/user-attachments/assets/e686992a-10db-45f7-87ab-736551cfda5f" />
+
 Correlation between past and future returns is positive but small, suggesting weak momentum behavior typical in liquid markets.
-Bucketed analysis shows mild directional tilt but significant noise.
+Bucketed analysis (quantiles) shows mild directional tilt but significant noise.
 
 ## Trading Rule (Test)
 - Long when past return in top quantile
@@ -52,6 +54,9 @@ We assume proportional transaction cost per unit traded (basis point style).
 Costs are applied only when position changes, approximating entry/exit friction.
 
 ## Results
+<img width="576" height="453" alt="image" src="https://github.com/user-attachments/assets/7a533590-3c90-4e9c-8122-8e6022a6dbe1" />
+<img width="576" height="453" alt="image" src="https://github.com/user-attachments/assets/54eac9c5-e927-4dc5-a7cd-0caa1f0581d3" />
+
 ### Gross (before costs)
 A slight positive correlation is present, but cumulative performance is unstable and trends negative over the sample.
 
